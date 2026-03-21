@@ -385,7 +385,7 @@ class WWRandomizer:
     yield("Writing logs...", progress_completed)
     if not self.options.do_not_generate_spoiler_log:
       self.write_spoiler_log()
-    self.write_non_spoiler_log()
+    #self.write_non_spoiler_log() - Don't need this when I have the masterlist
   
   def apply_necessary_tweaks(self):
     patcher.apply_patch(self, "custom_data")
@@ -938,10 +938,10 @@ class WWRandomizer:
       self.gcm.changed_files[jpc_path] = jpc.data
     
     if self.export_disc_to_folder:
-      output_folder_path = os.path.join(self.randomized_output_folder, "WW Random %s" % self.seed)
+      output_folder_path = os.path.join(self.randomized_output_folder, "%s" % self.seed)
       yield from self.gcm.export_disc_to_folder_with_changed_files(output_folder_path)
     else:
-      output_file_path = os.path.join(self.randomized_output_folder, "WW Random %s.iso" % self.seed)
+      output_file_path = os.path.join(self.randomized_output_folder, "%s.iso" % self.seed)
       yield from self.gcm.export_disc_to_iso_with_changed_files(output_file_path)
   
   def convert_string_to_integer_md5(self, string):
@@ -1048,7 +1048,7 @@ class WWRandomizer:
     log_str += self.items.write_to_non_spoiler_log()
     
     os.makedirs(self.logs_output_folder, exist_ok=True)
-    nonspoiler_log_output_path = os.path.join(self.logs_output_folder, "WW Random %s - Non-Spoiler Log.txt" % self.seed)
+    nonspoiler_log_output_path = os.path.join(self.logs_output_folder, "%s Non-Spoiler Log.txt" % self.seed)
     with open(nonspoiler_log_output_path, "w") as f:
       f.write(log_str)
   
@@ -1079,7 +1079,7 @@ class WWRandomizer:
       spoiler_log += self.hints.write_to_spoiler_log()
     
     os.makedirs(self.logs_output_folder, exist_ok=True)
-    spoiler_log_output_path = os.path.join(self.logs_output_folder, "WW Random %s - Spoiler Log.txt" % self.seed)
+    spoiler_log_output_path = os.path.join(self.logs_output_folder, "%s Spoiler Log.txt" % self.seed)
     with open(spoiler_log_output_path, "w") as f:
       f.write(spoiler_log)
   
@@ -1096,7 +1096,7 @@ class WWRandomizer:
     error_log_str += error_message
     
     os.makedirs(self.logs_output_folder, exist_ok=True)
-    error_log_output_path = os.path.join(self.logs_output_folder, "WW Random %s - Error Log.txt" % self.seed)
+    error_log_output_path = os.path.join(self.logs_output_folder, "%s Error Log.txt" % self.seed)
     with open(error_log_output_path, "w") as f:
       f.write(error_log_str)
   

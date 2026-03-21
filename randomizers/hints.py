@@ -182,6 +182,7 @@ class HintsRandomizer(BaseRandomizer):
     self.hints_per_placement: dict[str, list[Hint]] = {}
     self.island_to_fishman_hint: dict[int, Hint] = {}
     self.hoho_index_to_hints: dict[int, list[Hint]] = {}
+    self.num_hint_givers = 0
     
     HintsRandomizer.load_hint_text_files()
     
@@ -251,19 +252,42 @@ class HintsRandomizer(BaseRandomizer):
     hint_placement_options = list(self.hints_per_placement.keys())
     if self.total_num_hints == 0 or len(hint_placement_options) == 0:
       return
-    
-    # If there are less hints than placement options, duplicate the hints so that all selected
-    # placement options have at least one hint.
+
+    # If there are less hints than hint giving entities, duplicate the hints so that there are enough for everyone.
+    self.num_hint_givers = 0
+    if "fishmen_hints" in self.hints_per_placement:
+      self.num_hint_givers += 49
+    if "hoho_hints" in self.hints_per_placement:
+      self.num_hint_givers += 10
+
     duplicated_hints = []
-    while len(hints) + len(duplicated_hints) < len(hint_placement_options):
+    while len(hints) + len(duplicated_hints) < self.num_hint_givers:
       duplicated_hints += self.rng.sample(hints, len(hints))
-    hints += duplicated_hints[:(len(hint_placement_options) - len(hints))]
+    hints += duplicated_hints[:(self.num_hint_givers - len(hints))]
     
     # Distribute the hints among the enabled hint placement options
-    self.rng.shuffle(hint_placement_options)
-    for i, hint in enumerate(hints):
-      self.hints_per_placement[hint_placement_options[i % len(hint_placement_options)]].append(hint)
-    
+    # If Fishmen are enabled, each get one hint.
+    # If Hoho Hints are enabled, each also get one hint.
+    # If KoRL Hints are enabled, he gets all remaining hints.
+    self.rng.shuffle(hints)
+    if "fishmen_hints" in self.hints_per_placement:
+      for i, hint in enumerate(hints, start=1):
+        if i < 50:
+          self.hints_per_placement["fishmen_hints"].append(hint)
+        elif i < 60 and "hoho_hints" in self.hints_per_placement:
+          self.hints_per_placement["hoho_hints"].append(hint)
+        elif "korl_hints" in self.hints_per_placement:
+          self.hints_per_placement["korl_hints"].append(hint)
+    elif "hoho_hints" in self.hints_per_placement:
+      for i, hint in enumerate(hints, start=1):
+        if i < 11:
+          self.hints_per_placement["hoho_hints"].append(hint)
+        elif "korl_hints" in self.hints_per_placement:
+          self.hints_per_placement["korl_hints"].append(hint)
+    else:
+      for i, hint in enumerate(hints, start=1):
+        self.hints_per_placement["korl_hints"].append(hint)
+
     if "fishmen_hints" in self.hints_per_placement:
       self.distribute_fishmen_hints(self.hints_per_placement["fishmen_hints"])
     if "hoho_hints" in self.hints_per_placement:
@@ -318,7 +342,8 @@ class HintsRandomizer(BaseRandomizer):
       elif hint_placement == "hoho_hints":
         self.update_hoho_hints()
       elif hint_placement == "korl_hints":
-        self.update_korl_hints(self.hints_per_placement["korl_hints"])
+        if not (len(self.hints_per_placement["korl_hints"]) == 0):
+          self.update_korl_hints(self.hints_per_placement["korl_hints"])
       else:
         print("Invalid hint placement option: %s" % hint_placement)
   

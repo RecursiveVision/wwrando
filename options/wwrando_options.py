@@ -283,14 +283,14 @@ class Options(BaseOptions):
   num_item_hints: int = option(
     default=15,
     minimum=0,
-    maximum=15,
+    maximum=30,
     description="The number of item hints that will be placed. Item hints tell you which area contains a particular progress item in this seed.<br>"
       "If multiple hint placement options are selected, the hint count will be split evenly among the placement options.",
   )
   num_location_hints: int = option(
     default=5,
     minimum=0,
-    maximum=15,
+    maximum=60,
     description="The number of location hints that will be placed. Location hints tell you what item is at a specific location in this seed.<br>"
       "If multiple hint placement options are selected, the hint count will be split evenly among the placement options.",
   )

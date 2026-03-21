@@ -117,13 +117,22 @@ CONSUMABLE_ITEMS = \
 # Once all the items that have a fixed number per seed are used up, this list is used.
 # Unlike the other lists, this one does not have items removed from it as they are placed.
 # The number of each item in this list is instead its weighting relative to the other items in the list.
+# Rebalanced: 40% chance of high value Rupees, 30% chance of low value Rupees, 30% chance of a Spoil (favoring the ones with a single fixed placement).
 DUPLICATABLE_CONSUMABLE_ITEMS = \
-   3 * ["Yellow Rupee"] + \
-   7 * ["Red Rupee"] + \
-  10 * ["Purple Rupee"] + \
-  15 * ["Orange Rupee"] + \
+   2 * ["Green Rupee"] + \
+   3 * ["Blue Rupee"] + \
+  10 * ["Yellow Rupee"] + \
+  15 * ["Red Rupee"] + \
+  12 * ["Purple Rupee"] + \
+  20 * ["Orange Rupee"] + \
+   8 * ["Silver Rupee"] + \
   \
-   3 * ["Joy Pendant"]
+   3 * ["Joy Pendant"] + \
+   3 * ["Skull Necklace"] + \
+   7 * ["Boko Baba Seed"] + \
+   3 * ["Golden Feather"] + \
+   7 * ["Red Chu Jelly"] + \
+   7 * ["Green Chu Jelly"]
 
 DUNGEON_PROGRESS_ITEMS = \
   ["DRC Big Key"] *1 + ["DRC Small Key"] *4 + \

@@ -3,7 +3,7 @@ Forsaken Fortress Sector:
 Star Island:
   an island shaped like a star
 Northern Fairy Island:
-  the domain of a northern fairy
+  the demesne of a northern fairy
 Gale Isle:
   the home of the wind
 Crescent Moon Island:
@@ -27,15 +27,15 @@ Dragon Roost Island:
 Flight Control Platform:
   the island with a flying activity
 Western Fairy Island:
-  the domain of a western fairy
+  the demesne of a western fairy
 Rock Spire Isle:
-  the home of the masked shop seller
+  the home of the masked man
 Tingle Island:
   the island of greed
 Northern Triangle Island:
   the red triangle island
 Eastern Fairy Island:
-  the domain of an eastern fairy
+  the demesne of an eastern fairy
 Fire Mountain:
   the hottest place in the Great Sea
 Star Belt Archipelago:
@@ -53,7 +53,7 @@ Tower of the Gods Sector:
 Eastern Triangle Island:
   the green triangle island
 Thorned Fairy Island:
-  the domain of a thorned fairy
+  the demesne of a thorned fairy
 Needle Rock Isle:
   an island shaped like a needle
 Islet of Steel:
@@ -75,7 +75,7 @@ Five-Eye Reef:
 Shark Island:
   an island shaped like a marine creature
 Southern Fairy Island:
-  the domain of a southern fairy
+  the demesne of a southern fairy
 Ice Ring Isle:
   an island ravaged by ice
 Forest Haven:

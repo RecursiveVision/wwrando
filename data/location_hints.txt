@@ -1,9 +1,15 @@
+Outset Island - Underneath Link's House:
+  Type: Standard
+  Text: crawling beneath a house at the place of all beginnings
+Outset Island - Mesa the Grasscutter's House:
+  Type: Standard
+  Text: plundering a neighbor's treasure in the dead of night
 Outset Island - Orca - Give 10 Knight's Crests:
   Type: Standard
   Text: giving a fellow swordsman crests of honor
-Outset Island - Great Fairy:
+Outset Island - Cyan Fountain:
   Type: Standard
-  Text: visiting the fairy atop the place of all beginnings
+  Text: visiting a fountain bathed in Patience
 Outset Island - Jabun's Cave:
   Type: Standard
   Text: entering the cave at the back of the place of all beginnings
@@ -11,34 +17,97 @@ Outset Island - Dig up Black Soil:
   Type: Standard
   Text: teaching a pig to dig for treasure
 
+Windfall Island - Jail - Tingle - First Gift:
+  Type: Standard
+  Text: releasing an inmate accused of public indecency
+Windfall Island - Jail - Tingle - Second Gift:
+  Type: Standard
+  Text: releasing an inmate accused of public indecency
+Windfall Island - Jail - Maze Chest:
+  Type: Standard
+  Text: finding the treasure swiped by a psychotic inmate
 Windfall Island - Chu Jelly Juice Shop - Give 15 Green Chu Jelly:
   Type: Standard
   Text: giving a potion master green jelly
 Windfall Island - Chu Jelly Juice Shop - Give 15 Blue Chu Jelly:
   Type: Remote
   Text: giving a potion master blue jelly
+Windfall Island - Ivan - Catch Killer Bees:
+  Type: Standard
+  Text: winning a game of hide-and-seek
+Windfall Island - Mrs. Marie - Catch Killer Bees:
+  Type: Standard
+  Text: helping a schoolteacher manage unruly students
+Windfall Island - Mrs. Marie - Give 1 Joy Pendant:
+  Type: Standard
+  Text: giving a schoolteacher one pendant
+Windfall Island - Mrs. Marie - Give 21 Joy Pendants:
+  Type: Standard
+  Text: giving a schoolteacher twenty-one pendants
 Windfall Island - Mrs. Marie - Give 40 Joy Pendants:
   Type: Standard
   Text: giving a schoolteacher forty pendants
+Windfall Island - Lenzo's House - Left Chest:
+  Type: Standard
+  Text: robbing the second floor of a photography studio
+Windfall Island - Lenzo's House - Right Chest:
+  Type: Standard
+  Text: robbing the second floor of a photography studio
 Windfall Island - Lenzo's House - Become Lenzo's Assistant:
   Type: Standard
   Text: undertaking a photography apprenticeship
 Windfall Island - Lenzo's House - Bring Forest Firefly:
   Type: Standard
   Text: catching a firefly in a bottle
+Windfall Island - Hall of Wealth Chest:
+  Type: Standard
+  Text: opening a chest behind an auctioneer's podium
 Windfall Island - Maggie's Father - Give 20 Skull Necklaces:
   Type: Standard
   Text: giving a wealthy man twenty necklaces
+Windfall Island - Maggie - Free Item:
+  Type: Standard
+  Text: promising to facilitate bestiality
+Windfall Island - Maggie - Deliver Moblin's Letter:
+  Type: Standard
+  Text: delivering a beast's dinner invitation
+Windfall Island - Kreeb - Light Up Lighthouse:
+  Type: Standard
+  Text: shooting a flaming arrow from a gondola
+Windfall Island - Transparent Chest:
+  Type: Standard
+  Text: illuminating a chest near a very populated place
+Windfall Island - Tott - Teach Rhythm:
+  Type: Standard
+  Text: teaching a magical dance
 Windfall Island - Zunari - Stock Exotic Flower in Zunari's Shop:
   Type: Standard
   Text: stocking a shop with three flowers
 Windfall Island - Sam - Decorate the Town:
   Type: Standard
   Text: volunteering to decorate a very populated place
+Windfall Island - Kane - Place Shop Guru Statue on Gate:
+  Type: Standard
+  Text: impressing an artist with a golden statuette
+Windfall Island - Kane - Place Postman Statue on Gate:
+  Type: Standard
+  Text: impressing an artist with a winged statuette
+Windfall Island - Kane - Place Six Flags on Gate:
+  Type: Standard
+  Text: impressing an artist with six wind-bearing objects
+Windfall Island - Kane - Place Six Idols on Gate:
+  Type: Standard
+  Text: impressing an artist with six strange statues
 Windfall Island - Mila - Follow the Thief:
   Type: Standard
   Text: preventing a burglary
-Windfall Island - Battlesquid - Under 20 Shots Prize:
+Windfall Island - Sploosh-Kaboom - First Prize:
+  Type: Standard
+  Text: shooting three squids for the first time
+Windfall Island - Sploosh-Kaboom - Second Prize:
+  Type: Standard
+  Text: shooting three squids for the second time
+Windfall Island - Sploosh-Kaboom - Under 20 Shots Prize:
   Type: Remote
   Text: setting a new record in squid-shooting
 Windfall Island - Pompie and Vera - Secret Meeting Photo:
@@ -50,97 +119,362 @@ Windfall Island - Kamo - Full Moon Photo:
 Windfall Island - Minenco - Miss Windfall Photo:
   Type: Standard
   Text: showing a lady a photo of herself
-Windfall Island - Linda and Anton:
-  Type: Standard
-  Text: uniting a young couple with the power of photography
 
+Dragon Roost Island - Wind Shrine:
+  Type: Standard
+  Text: learning to control the wind's direction
 Dragon Roost Island - Rito Aerie - Give Hoskit 20 Golden Feathers:
   Type: Standard
   Text: gathering feathers for a charitable lover
+Dragon Roost Island - Chest on Top of Boulder:
+  Type: Standard
+  Text: destroying a boulder with a series of explosions
 Dragon Roost Island - Fly Across Platforms Around Island:
   Type: Standard
   Text: gliding around the home of bird people
-Dragon Roost Island - Rito Aerie - Mail Sorting:
+Dragon Roost Island - Baito - Mail Game:
   Type: Standard
   Text: mastering the art of letter throwing
-Dragon Roost Island - Secret Cave:
+Dragon Roost Island - Dragon Roost Trial Cave:
   Type: Standard
-  Text: besting the cavern at the home of bird people
+  Text: besting the trial cavern with weak foes and never-ending darkness
 
+Dragon Roost Cavern - First Room:
+  Type: Standard
+  Text: lighting two torches at the entrance of a large volcanic den
+Dragon Roost Cavern - Alcove With Water Jugs:
+  Type: Standard
+  Text: hopping across magma in a water-filled room in a large volcanic den
+Dragon Roost Cavern - Water Jug on Upper Shelf:
+  Type: Standard
+  Text: wasting water in a large volcanic den
+Dragon Roost Cavern - Boarded Up Chest:
+  Type: Standard
+  Text: breaking a barricade guarded by two bubble brains in a large volcanic den
+Dragon Roost Cavern - Chest Across Lava Pit:
+  Type: Standard
+  Text: grappling across a pit of magma in a large volcanic den
+Dragon Roost Cavern - Rat Room:
+  Type: Standard
+  Text: climbing up to the exit of a rat-filled room in a large volcanic den
+Dragon Roost Cavern - Rat Room Boarded Up Chest:
+  Type: Standard
+  Text: burning a barricade in a rat-filled room in a large volcanic den
+Dragon Roost Cavern - Bird's Nest:
+  Type: Standard
+  Text: raiding a bird's nest outside a large volcanic den
+Dragon Roost Cavern - Dark Room:
+  Type: Standard
+  Text: navigating a pitch-black room in a large volcanic den
+Dragon Roost Cavern - Tingle Chest in Hub Room:
+  Type: Standard
+  Text: setting off an explosive across a fragile bridge in a large volcanic den
+Dragon Roost Cavern - Pot on Upper Shelf in Pot Room:
+  Type: Standard
+  Text: rolling into the wall of a large volcanic den
+Dragon Roost Cavern - Pot Room Chest:
+  Type: Standard
+  Text: lighting up a room where Bokoblins hide in a large volcanic den
 Dragon Roost Cavern - Miniboss:
   Type: Standard
   Text: freeing the chest in an arena at the summit of a large volcanic den
 Dragon Roost Cavern - Under Rope Bridge:
   Type: Standard
   Text: defeating two Bokoblins near a fragile bridge in a large volcanic den
+Dragon Roost Cavern - Tingle Statue Chest:
+  Type: Standard
+  Text: setting off an explosive atop an empty alcove in a large volcanic den
 Dragon Roost Cavern - Big Key Chest:
   Type: Standard
   Text: placing a Magtail on a switch in a large volcanic den
+Dragon Roost Cavern - Boss Stairs Right Chest:
+  Type: Standard
+  Text: a chest outside a giant monster's lair in a large volcanic den
+Dragon Roost Cavern - Boss Stairs Left Chest:
+  Type: Standard
+  Text: a chest outside a giant monster's lair in a large volcanic den
+Dragon Roost Cavern - Boss Stairs Right Pot:
+  Type: Standard
+  Text: destroying objects outside a giant monster's lair in a large volcanic den
+Dragon Roost Cavern - Gohma Heart Container:
+  Type: Standard
+  Text: slaying a giant monster swimming in magma
 
 Forest Haven - On Tree Branch:
   Type: Standard
-  Text: receiving a gift from the Great Deku Tree
+  Text: receiving a gift from an ancient tree
 Forest Haven - Small Island Chest:
   Type: Standard
   Text: gliding to an isle behind the home of the woodland spirits
 
+Forbidden Woods - First Room:
+  Type: Standard
+  Text: entering a dungeon with overgrown vegetation
+Forbidden Woods - Inside Hollow Tree's Mouth:
+  Type: Standard
+  Text: a hollow tree trunk with bubble brains in a dungeon with overgrown vegetation
+Forbidden Woods - Climb to Top Using Boko Baba Bulbs:
+  Type: Standard
+  Text: flying to a chest atop a tall room in a dungeon with overgrown vegetation
+Forbidden Woods - Pot High Above Hollow Tree:
+  Type: Standard
+  Text: destroying pottery above a hollow tree in a dungeon with overgrown vegetation
+Forbidden Woods - Hole in Tree:
+  Type: Standard
+  Text: a hollow tree trunk with two acorns in a dungeon with overgrown vegetation
+Forbidden Woods - Morth Pit:
+  Type: Standard
+  Text: a pit of clingy monsters in a dungeon with overgrown vegetation
+Forbidden Woods - Vine Maze Left Chest:
+  Type: Standard
+  Text: the end of a maze in a dungeon with overgrown vegetation
+Forbidden Woods - Vine Maze Right Chest:
+  Type: Standard
+  Text: the end of a maze in a dungeon with overgrown vegetation
+Forbidden Woods - Highest Pot in Vine Maze:
+  Type: Standard
+  Text: being destructive high above a maze in a dungeon with overgrown vegetation
+Forbidden Woods - Tall Room Before Miniboss:
+  Type: Standard
+  Text: a tall room filled with Peahats in a dungeon with overgrown vegetation
 Forbidden Woods - Mothula Miniboss Room:
   Type: Standard
   Text: exterminating a flying bug in its arena in a dungeon with overgrown vegetation
+Forbidden Woods - Past Seeds Hanging by Vines:
+  Type: Standard
+  Text: getting past hanging spike balls in a dungeon with overgrown vegetation
+Forbidden Woods - Chest Across Red Hanging Flower:
+  Type: Standard
+  Text: jumping across a buoyant flower in a dungeon with overgrown vegetation
+Forbidden Woods - Tingle Statue Chest:
+  Type: Standard
+  Text: blowing up a small island in a dungeon with overgrown vegetation
 Forbidden Woods - Chest in Locked Tree Trunk:
   Type: Standard
   Text: dropping a bomb flower into a tree trunk in a dungeon with overgrown vegetation
 Forbidden Woods - Big Key Chest:
   Type: Standard
   Text: hitting five switches at once in a dungeon with overgrown vegetation
+Forbidden Woods - Double Mothula Room:
+  Type: Standard
+  Text: exterminating bugs in a vine-sealed room in a dungeon with overgrown vegetation
+Forbidden Woods - Kalle Demos Heart Container:
+  Type: Standard
+  Text: slaying a giant monster hanging from the ceiling
 
+Greatfish Isle - Hidden Chest:
+  Type: Standard
+  Text: gliding through the air at an island destroyed by evil itself
+
+Tower of the Gods - Chest Behind Bombable Walls:
+  Type: Standard
+  Text: a chest behind a destructible wall in a tower created to test the hero
+Tower of the Gods - Pot Behind Bombable Walls:
+  Type: Standard
+  Text: shattering a concealed vase in a tower created to test the hero
 Tower of the Gods - Hop Across Floating Boxes:
   Type: Standard
   Text: hopping across boxes in a tower created to test the hero
+Tower of the Gods - Light Two Torches:
+  Type: Standard
+  Text: lighting oft-submerged torches in a tower created to test the hero
+Tower of the Gods - Skulls Room Chest:
+  Type: Standard
+  Text: a chest guarded by a flaming skull in a tower created to test the hero
+Tower of the Gods - Shoot Eye Above Skulls Room Chest:
+  Type: Standard
+  Text: a chest concealed behind another chest in a tower created to test the hero
+Tower of the Gods - Tingle Statue Chest:
+  Type: Standard
+  Text: bombing a levitating platform in a tower created to test the hero
 Tower of the Gods - First Chest Guarded by Armos Knights:
   Type: Standard
   Text: defeating two bomb-hungry foes in a tower created to test the hero
+Tower of the Gods - Stone Tablet:
+  Type: Standard
+  Text: learning to command servants in a tower created to test the hero
 Tower of the Gods - Darknut Miniboss Room:
   Type: Standard
   Text: defeating a sworded foe in its arena in a tower created to test the hero
+Tower of the Gods - Second Chest Guarded by Armos Knights:
+  Type: Standard
+  Text: playing a song near two bomb-hungry foes in a tower created to test the hero
+Tower of the Gods - Floating Platforms Room:
+  Type: Standard
+  Text: a visible chest atop levitating platforms in a tower created to test the hero
+Tower of the Gods - Top of Floating Platforms Room:
+  Type: Standard
+  Text: shooting high above levitating platforms in a tower created to test the hero
+Tower of the Gods - Eastern Pot in Big Key Chest Room:
+  Type: Standard
+  Text: stealing treasure from a magical pink eye in a tower created to test the hero
+Tower of the Gods - Big Key Chest:
+  Type: Standard
+  Text: using statues to deactivate lasers in a tower created to test the hero
+Tower of the Gods - Gohdan Heart Container:
+  Type: Standard
+  Text: defeating a giant monster created to test the hero
+
+Hyrule - Master Sword Chamber:
+  Type: Standard
+  Text: defeating two mighty sworded foes beneath a submerged castle
 
 Forsaken Fortress - Phantom Ganon:
   Type: Standard
   Text: playing tennis with an apparition in the rubble of the evil's lair
+Forsaken Fortress - Chest Outside Upper Jail Cell:
+  Type: Standard
+  Text: a chest on a walkway outside a cell in the rubble of the evil's lair
+Forsaken Fortress - Chest Inside Lower Jail Cell:
+  Type: Standard
+  Text: an imprisoned chest in the rubble of the evil's lair
+Forsaken Fortress - Chest Guarded By Bokoblin:
+  Type: Standard
+  Text: a treasure guarded by a Bokoblin in the rubble of the evil's lair
+Forsaken Fortress - Chest on Bed:
+  Type: Standard
+  Text: hopping on a bed in the rubble of the evil's lair
+Forsaken Fortress - Helmaroc King Heart Container:
+  Type: Standard
+  Text: slaying the pet bird of a creepy old man that kidnaps little girls
 
-Fire Mountain - Cave - Chest:
+Mother and Child Isles - Inside Mother Isle:
+  Type: Standard
+  Text: riding a cyclone into the source of all fairies
+
+Fire Mountain - Interior:
   Type: Standard
   Text: jumping across dried magma to Magtails
+Fire Mountain - Lookout Platform:
+  Type: Standard
+  Text: climbing a tower near the hottest place in the Great Sea
+Fire Mountain - Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons near the hottest place in the Great Sea
+Fire Mountain - Big Octo:
+  Type: Standard
+  Text: slaying the giant sea monster near the hottest place in the Great Sea
 
-Ice Ring Isle - Inner Cave - Chest:
+Ice Ring Isle - Frozen Chest:
+  Type: Standard
+  Text: thawing a frozen treasure chest
+Ice Ring Isle - Interior:
+  Type: Standard
+  Text: sliding down an ice platform patrolled by bats
+Ice Ring Isle - Inner Cave:
   Type: Standard
   Text: awakening foes from an icy slumber
 
+Headstone Island - Top of the Island:
+  Type: Standard
+  Text: sending a seagull atop the home of the earth
+Headstone Island - Submarine:
+  Type: Standard
+  Text: conquering a submarine filled with explosives
+
+Earth Temple - Transparent Chest In Warp Pot Room:
+  Type: Standard
+  Text: illuminating a chest near the entrance of a haunted dungeon
+Earth Temple - Behind Curtain In Warp Pot Room:
+  Type: Standard
+  Text: committing arson near a cauldron in a haunted dungeon
+Earth Temple - Transparent Chest in First Crypt:
+  Type: Standard
+  Text: illuminating a chest near flaming skulls in a haunted dungeon
+Earth Temple - Chest Behind Destructible Walls:
+  Type: Standard
+  Text: a chest concealed behind light-sensitive walls in a haunted dungeon
+Earth Temple - Chest In Three Blocks Room:
+  Type: Standard
+  Text: pushing one of three heavy blocks to unlock a door in a haunted dungeon
+Earth Temple - Chest Behind Statues:
+  Type: Standard
+  Text: destroying small statues near lantern-bearing foes in a haunted dungeon
+Earth Temple - Casket in Second Crypt:
+  Type: Standard
+  Text: unsealing the tombs of ReDeads in a haunted dungeon
 Earth Temple - Stalfos Miniboss Room:
   Type: Standard
   Text: defeating three Stalfos in a haunted dungeon's arena
+Earth Temple - Tingle Statue Chest:
+  Type: Standard
+  Text: blowing up an alcove beyond suspended platforms in a haunted dungeon
+Earth Temple - End of Foggy Room With Floormasters:
+  Type: Standard
+  Text: defogging a maze of Floormasters in a haunted dungeon
 Earth Temple - Kill All Floormasters in Foggy Room:
   Type: Standard
   Text: defeating an army of Floormasters in a haunted dungeon
+Earth Temple - Behind Curtain Next to Hammer Button:
+  Type: Standard
+  Text: committing arson near a wooden button in a haunted dungeon
+Earth Temple - Chest in Third Crypt:
+  Type: Standard
+  Text: running down a path of collapsing coffins in a haunted dungeon
+Earth Temple - Many Mirrors Room Right Chest:
+  Type: Standard
+  Text: illuminating a chest in a mirror-filled room in a haunted dungeon
+Earth Temple - Many Mirrors Room Left Chest:
+  Type: Standard
+  Text: illuminating a chest in a mirror-filled room in a haunted dungeon
 Earth Temple - Stalfos Crypt Room:
   Type: Standard
   Text: defeating three Stalfos in a crypt deep in a haunted dungeon
 Earth Temple - Big Key Chest:
   Type: Standard
   Text: defeating a sworded foe in a haunted dungeon
+Earth Temple - Jalhalla Heart Container:
+  Type: Standard
+  Text: slaying a giant ghostly monster
 
+Wind Temple - Chest Between Two Dirt Patches:
+  Type: Standard
+  Text: planting trees near the entrance of a trap-filled dungeon
+Wind Temple - Behind Stone Head in Hidden Upper Room:
+  Type: Standard
+  Text: channeling Robespierre above a grate in a trap-filled dungeon
+Wind Temple - Tingle Statue Chest:
+  Type: Standard
+  Text: bombing the bottom of a cliffside in a trap-filled dungeon
+Wind Temple - Chest Behind Stone Head:
+  Type: Standard
+  Text: destroying a giant stone sculpture in a trap-filled dungeon
+Wind Temple - Chest in Left Alcove:
+  Type: Standard
+  Text: a treasure chest in an alcove above a grate in a trap-filled dungeon
 Wind Temple - Big Key Chest:
   Type: Standard
   Text: defeating three sworded foes in a trap-filled dungeon
+Wind Temple - Chest In Many Cyclones Room:
+  Type: Standard
+  Text: flying through cyclones in a trap-filled dungeon
+Wind Temple - Behind Stone Head in Many Cyclones Room:
+  Type: Standard
+  Text: channeling Robespierre near multiple cyclones in a trap-filled dungeon
+Wind Temple - Chest In Middle Of Hub Room:
+  Type: Standard
+  Text: a treasure chest below a giant grate in a trap-filled dungeon
+Wind Temple - Spike Wall Room - First Chest:
+  Type: Standard
+  Text: leaping behind a wall of spikes in a trap-filled dungeon
+Wind Temple - Spike Wall Room - Destroy All Cracked Floors:
+  Type: Standard
+  Text: crumbling five cracked floor tiles in a trap-filled dungeon
 Wind Temple - Wizzrobe Miniboss Room:
   Type: Standard
-  Text: defeating the Wizzrobe miniboss in a trap-filled dungeon's arena
+  Text: defeating a red-robed magician and its cohorts in their arena
+Wind Temple - Chest at Top of Hub Room:
+  Type: Standard
+  Text: gliding to the top of the central chamber in a trap-filled dungeon
 Wind Temple - Chest Behind Seven Armos:
   Type: Standard
   Text: defeating seven mechanical foes near the top of a trap-filled dungeon
 Wind Temple - Kill All Enemies in Tall Basement Room:
   Type: Standard
   Text: defeating every enemy in the lowest room of a trap-filled dungeon
+Wind Temple - Molgera Heart Container:
+  Type: Standard
+  Text: slaying the tragedy of man, the conqueror worm
 
 Ganon's Tower - Maze Chest:
   Type: Remote
@@ -149,112 +483,255 @@ Ganon's Tower - Maze Chest:
 Mailbox - Letter from Hoskit's Girlfriend:
   Type: Standard
   Text: the writing of a grateful girlfriend
+Mailbox - Letter from Baito's Mother:
+  Type: Standard
+  Text: the writing of a protective mother
 Mailbox - Letter from Baito:
   Type: Standard
   Text: the writing of a bewildered letter sorter
+Mailbox - Letter from Komali's Father:
+  Type: Standard
+  Text: the writing of a winged chieftain
+Mailbox - Letter Advertising Bombs in Beedle's Shop:
+  Type: Standard
+  Text: an unsolicited advertisement promoting terrorism
+Mailbox - Letter Advertising Rock Spire Shop Ship:
+  Type: Standard
+  Text: an unsolicited advertisement from a masked man
 Mailbox - Letter from Orca:
   Type: Standard
   Text: the writing of your hometown swordsman
+Mailbox - Letter from Grandma:
+  Type: Standard
+  Text: curing your grandmother's illness
 Mailbox - Letter from Aryll:
   Type: Standard
   Text: the writing of your beloved sister
 Mailbox - Letter from Tingle:
   Type: Standard
-  Text: the writing of a rupee-hungry fairy
+  Text: an expensive unwanted package from an insufferable green bug
 
+The Great Sea - Salvage Corp Gift:
+  Type: Standard
+  Text: speaking to a group of treasure hunters
 The Great Sea - Cyclos:
   Type: Standard
   Text: using a frog in a cyclone as target practice
-The Great Sea - Goron Trading Reward:
+The Great Sea - Island Trading Sequence:
   Type: Remote
   Text: showing a golden statuette to a Goron merchant
-The Great Sea - Withered Trees:
+The Great Sea - Water Withered Trees:
   Type: Remote
-  Text: restoring life to the trees of the Koroks
+  Text: restoring life to the saplings of the woodland spirits
 The Great Sea - Ghost Ship:
   Type: Standard
   Text: plundering the haunted ship
 
+Private Oasis - Chest at Top of Waterfall:
+  Type: Standard
+  Text: reaching the top of a waterfall at a deserted luxury abode
+Private Oasis - Cabana Labyrinth - Lower Floor Chest:
+  Type: Standard
+  Text: plundering the sewers of a deserted luxury abode
+Private Oasis - Cabana Labyrinth - Upper Floor Chest:
+  Type: Standard
+  Text: playing a song in the sewers of a deserted luxury abode
+Private Oasis - Big Octo:
+  Type: Standard
+  Text: slaying the giant sea monster near a deserted luxury abode
+
+Spectacle Island - Barrel Shooting - First Prize:
+  Type: Standard
+  Text: destroying five barrels with a cannon for the first time
+Spectacle Island - Barrel Shooting - Second Prize:
+  Type: Standard
+  Text: destroying five barrels with a cannon for the second time
+
 Needle Rock Isle - Chest:
   Type: Standard
   Text: activating a switch upon the needle
-Needle Rock Isle - Cave:
+Needle Rock Isle - Torch-Lighting Cave:
   Type: Standard
   Text: lighting torches in a cave of sunken ships
 Needle Rock Isle - Golden Gunboat:
   Type: Standard
   Text: sinking a warship made of gold
 
-Angular Isles - Cave:
+Angular Isles - Peak:
   Type: Standard
-  Text: pushing blocks inside an island made of blocks
+  Text: climbing an island made of blocks
+Angular Isles - Mirror Shield Cave:
+  Type: Standard
+  Text: arranging blocks inside a cavern with a ray of light
 
-Boating Course - Cave:
+Boating Course - Raft:
+  Type: Standard
+  Text: a raft near the island with a boat race
+Boating Course - Miniblin Cave:
   Type: Standard
   Text: lighting three switches at the mercy of Miniblins
 
-Stone Watcher Island - Cave:
+Stone Watcher Island - Triforce Trial Cave:
   Type: Standard
-  Text: besting the trial at the home of the stone watcher
+  Text: besting the trial cavern with Armos and two Darknuts
+Stone Watcher Island - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower at the home of the stone watcher
 Stone Watcher Island - Lookout Platform - Destroy the Cannons:
   Type: Standard
-  Text: destroying cannons on the lookout platform at the home of the stone watcher
+  Text: destroying cannons on the tower at the home of the stone watcher
 
 Islet of Steel - Interior:
   Type: Standard
   Text: infiltrating a fort made of steel
 Islet of Steel - Lookout Platform - Defeat the Enemies:
   Type: Standard
-  Text: clearing the platform near a fort made of steel
+  Text: clearing the tower near a fort made of steel
 
-Overlook Island - Cave:
+Overlook Island - Elite Triforce Trial Cave:
   Type: Standard
-  Text: besting the trial at an island made of brick structures
+  Text: besting the trial cavern with Armos Knights and four Darknuts
 
-Bird's Peak Rock - Cave:
+Bird's Peak Rock - Wind's Requiem Cave:
   Type: Standard
-  Text: playing the song of winds in a place where a fruit is required to progress
+  Text: playing a song in the easiest cave
 
-Pawprint Isle - Chuchu Cave - Scale the Wall:
+Pawprint Isle - ChuChu Cave - Open Room:
   Type: Standard
-  Text: climbing up pegs in the cave where Chuchus roam
+  Text: an openly accessible chest in the cave where bubble brains roam
+Pawprint Isle - ChuChu Cave - Behind Left Boulder:
+  Type: Standard
+  Text: blasting a boulder in the cave where bubble brains roam
+Pawprint Isle - ChuChu Cave - Behind Right Boulder:
+  Type: Standard
+  Text: blasting a boulder in the cave where bubble brains roam
+Pawprint Isle - ChuChu Cave - Scale the Wall:
+  Type: Standard
+  Text: climbing up pegs in the cave where bubble brains roam
 Pawprint Isle - Wizzrobe Cave:
   Type: Standard
-  Text: defeating Wizzrobes in their cave
-
-Thorned Fairy Island - Great Fairy:
+  Text: defeating summoning Wizzrobes in their cave
+Pawprint Isle - Lookout Platform - Defeat the Enemies:
   Type: Standard
-  Text: visiting the domain of a thorned fairy
+  Text: clearing the tower near an island shaped like a paw
 
+Thorned Fairy Island - Blue Fountain:
+  Type: Standard
+  Text: visiting a fountain bathed in Integrity
+Thorned Fairy Island - Northeast Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons near the demesne of a thorned fairy
+Thorned Fairy Island - Southwest Lookout Platform - Defeat the Enemies:
+  Type: Standard
+  Text: clearing a tower near the demesne of a thorned fairy
+
+Eastern Fairy Island - Yellow Fountain:
+  Type: Standard
+  Text: visiting a fountain bathed in Justice
 Eastern Fairy Island - Lookout Platform - Defeat the Cannons and Enemies:
   Type: Standard
-  Text: defending the platform at the domain of an eastern fairy
+  Text: destroying cannons and Bokoblins near the demesne of an eastern fairy
+
+Western Fairy Island - Green Fountain:
+  Type: Standard
+  Text: visiting a fountain bathed in Kindness
+Western Fairy Island - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower near the demesne of a western fairy
+
+Southern Fairy Island - Purple Fountain:
+  Type: Standard
+  Text: visiting a fountain bathed in Perseverance
+Southern Fairy Island - Northwest Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons near the demesne of a southern fairy
+Southern Fairy Island - Southeast Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons near the demesne of a southern fairy
+
+Northern Fairy Island - Red Fountain:
+  Type: Standard
+  Text: visiting a fountain bathed in Determination
+Northern Fairy Island - Submarine:
+  Type: Standard
+  Text: swinging across ropes in a submarine
 
 Tingle Island - Ankle - Reward for All Tingle Statues:
   Type: Standard
   Text: collecting five glistening fairy figurines
 Tingle Island - Big Octo:
   Type: Standard
-  Text: defeating the sea monstrosity near the island of greed
+  Text: slaying the pet monster of the Great Sea's greediest pedophile
 
-Bomb Island - Cave:
+Diamond Steppe Island - Warp Maze Cave - First Chest:
   Type: Standard
-  Text: besting the trial at an island shaped like an explosive
+  Text: a hidden side path in the maze of cauldrons
+Diamond Steppe Island - Warp Maze Cave - Second Chest:
+  Type: Standard
+  Text: reaching the end of the maze of cauldrons
+Diamond Steppe Island - Big Octo:
+  Type: Standard
+  Text: slaying the giant sea monster near an island shaped like a jewel
 
+Bomb Island - Magtail Puzzle Cave:
+  Type: Standard
+  Text: throwing Magtails into rings of fire
+Bomb Island - Lookout Platform - Defeat the Enemies:
+  Type: Standard
+  Text: clearing the tower near an island shaped like an explosive
+Bomb Island - Submarine:
+  Type: Standard
+  Text: defeating Bokoblins in a submarine where rats thieve
+
+Rock Spire Isle - Keese Cave:
+  Type: Standard
+  Text: clearing a dimly-lit cave filled with bats
+Rock Spire Isle - West Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons on a tower near the home of the masked man
+Rock Spire Isle - East Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons on a tower near the home of the masked man
+Rock Spire Isle - Center Lookout Platform:
+  Type: Standard
+  Text: climbing a tower near the home of the masked man
 Rock Spire Isle - Southeast Gunboat:
   Type: Standard
-  Text: sinking the warship near the home of the masked shop seller
+  Text: sinking the warship near the home of the masked man
 
-Shark Island - Cave:
+Shark Island - Shark Island Ambush:
   Type: Remote
   Text: fending off waves in a crimson cave
+
+Cliff Plateau Isles - Cliff Plateau Linking Cave:
+  Type: Standard
+  Text: a treasure chest encircled by vines
+Cliff Plateau Isles - Highest Isle:
+  Type: Standard
+  Text: the peak of the remains of a wooden plateau
+Cliff Plateau Isles - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower near the remains of a wooden plateau
+
+Crescent Moon Island - Chest:
+  Type: Standard
+  Text: climbing an island shaped like the moon
+Crescent Moon Island - Submarine:
+  Type: Standard
+  Text: evading Miniblins in a submarine where torches are lit over time
 
 Horseshoe Island - Play Golf:
   Type: Standard
   Text: playing three holes under par
-Horseshoe Island - Cave:
+Horseshoe Island - Mothula Cave:
   Type: Standard
   Text: clearing out Mothulas in an overgrown cave
+Horseshoe Island - Northwest Lookout Platform:
+  Type: Standard
+  Text: stepping on a switch atop a tower near a place where you can play golf
+Horseshoe Island - Southeast Lookout Platform:
+  Type: Standard
+  Text: stepping on a switch atop a tower near a place where you can play golf
 
 Flight Control Platform - Bird-Man Contest - First Prize:
   Type: Standard
@@ -263,41 +740,226 @@ Flight Control Platform - Submarine:
   Type: Standard
   Text: defeating Wizzrobes in a dimly-lit submarine
 
-Star Island - Cave:
+Star Island - Magtail Escalation Cave:
   Type: Standard
-  Text: besting the cavern at an island shaped like a star
+  Text: besting the trial that begins by slaying three Magtails
+Star Island - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower near an island shaped like a star
+
+Star Belt Archipelago - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower near an island shaped like a constellation
 
 Five-Star Isles - Lookout Platform - Destroy the Cannons:
   Type: Standard
-  Text: making quick work of cannons at the remains of five isles
+  Text: destroying cannons near the remains of five isles
+Five-Star Isles - Raft:
+  Type: Standard
+  Text: a raft near the remains of five isles
 Five-Star Isles - Submarine:
   Type: Standard
   Text: defeating Bokoblins in a dimly-lit submarine
 
+Seven-Star Isles - Center Lookout Platform:
+  Type: Standard
+  Text: clearing the towers near the remains of seven isles
+Seven-Star Isles - North Lookout Platform:
+  Type: Standard
+  Text: clearing the towers near the remains of seven isles
+Seven-Star Isles - South Lookout Platform:
+  Type: Standard
+  Text: clearing the towers near the remains of seven isles
 Seven-Star Isles - Big Octo:
   Type: Standard
-  Text: defeating the sea monstrosity near the remains of seven isles
+  Text: slaying the giant sea monster near the remains of seven isles
 
 Cyclops Reef - Destroy the Cannons and Gunboats:
   Type: Standard
-  Text: ravaging the one-eyed reef
+  Text: ravaging the one-eyed demon
+Cyclops Reef - Lookout Platform - Defeat the Enemies:
+  Type: Standard
+  Text: clearing the tower near the one-eyed demon
 
 Two-Eye Reef - Destroy the Cannons and Gunboats:
   Type: Standard
-  Text: ravaging the two-eyed reef
+  Text: ravaging the two-eyed demon
+Two-Eye Reef - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower near the two-eyed demon
+Two-Eye Reef - Big Octo Great Fairy:
+  Type: Standard
+  Text: freeing a trapped fairy near the two-eyed demon
 
 Three-Eye Reef - Destroy the Cannons and Gunboats:
   Type: Standard
-  Text: ravaging the three-eyed reef
+  Text: ravaging the three-eyed demon
 
 Four-Eye Reef - Destroy the Cannons and Gunboats:
   Type: Standard
-  Text: ravaging the four-eyed reef
+  Text: ravaging the four-eyed demon
 
 Five-Eye Reef - Destroy the Cannons:
   Type: Standard
-  Text: ravaging the five-eyed reef
+  Text: ravaging the five-eyed demon
+Five-Eye Reef - Lookout Platform:
+  Type: Standard
+  Text: climbing the tower near the five-eyed demon
 
 Six-Eye Reef - Destroy the Cannons and Gunboats:
   Type: Standard
-  Text: ravaging the six-eyed reef
+  Text: ravaging the six-eyed demon
+Six-Eye Reef - Lookout Platform - Destroy the Cannons:
+  Type: Standard
+  Text: destroying cannons on the tower near the six-eyed demon
+Six-Eye Reef - Submarine:
+  Type: Standard
+  Text: defeating Moblins in a submarine with pots and barrels
+
+Forsaken Fortress Sector - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean where the rubble of the evil's lair lies
+Star Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like a star
+Northern Fairy Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the demesne of a northern fairy
+Gale Isle - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the home of the wind
+Crescent Moon Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like the moon
+Seven-Star Isles - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the remains of seven isles
+Overlook Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island made of brick structures
+Four-Eye Reef - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the four-eyed demon
+Mother and Child Isles - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the source of all fairies
+Spectacle Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near a place where a lone man waits with his cannon
+Windfall Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near a very populated place
+Pawprint Isle - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like a paw
+Dragon Roost Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the home of bird people
+Flight Control Platform - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the island with a flying activity
+Western Fairy Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the demesne of a western fairy
+Rock Spire Isle - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the home of the masked man
+Tingle Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the island of greed
+Northern Triangle Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the red triangle island
+Eastern Fairy Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the demesne of an eastern fairy
+Fire Mountain - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the hottest place in the Great Sea
+Star Belt Archipelago - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like a constellation
+Three-Eye Reef - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the three-eyed demon
+Greatfish Isle - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island destroyed by evil itself
+Cyclops Reef - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the one-eyed demon
+Six-Eye Reef - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the six-eyed demon
+Tower of the Gods Sector - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean where a tower created to test the hero lies
+Eastern Triangle Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the green triangle island
+Thorned Fairy Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the demesne of a thorned fairy
+Needle Rock Isle - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like a needle
+Islet of Steel - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near a fort made of steel
+Stone Watcher Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the home of the stone watcher
+Southern Triangle Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the blue triangle island
+Private Oasis - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near a deserted luxury abode with a pool
+Bomb Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like an explosive
+Bird's Peak Rock - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near a place where a fruit is required to progress
+Diamond Steppe Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like a jewel
+Five-Eye Reef - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the five-eyed demon
+Shark Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island shaped like a marine creature
+Southern Fairy Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the demesne of a southern fairy
+Ice Ring Isle - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island ravaged by ice
+Forest Haven - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the home of the woodland spirits
+Cliff Plateau Isles - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the remains of a wooden plateau
+Horseshoe Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near a place where you can play golf
+Outset Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the place of all beginnings
+Headstone Island - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the home of the earth
+Two-Eye Reef - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the two-eyed demon
+Angular Isles - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near an island made of blocks
+Boating Course - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the island with a boat race
+Five-Star Isles - Sunken Treasure:
+  Type: Standard
+  Text: a trash can in the ocean near the remains of five isles

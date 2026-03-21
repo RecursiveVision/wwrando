@@ -147,7 +147,7 @@
                <item row="5" column="2">
                 <widget class="QCheckBox" name="progression_battlesquid">
                  <property name="text">
-                  <string>Battlesquid Minigame</string>
+                  <string>Sploosh-Kaboom</string>
                  </property>
                 </widget>
                </item>

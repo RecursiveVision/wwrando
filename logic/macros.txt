@@ -651,7 +651,7 @@ Can Get Fairies:
 Can Farm Knight's Crests:
   Grappling Hook & Spoils Bag
   & (
-    (Can Access Item Location "Ice Ring Isle - Inner Cave - Chest")
+    (Can Access Item Location "Ice Ring Isle - Inner Cave")
     | (Can Access Item Location "Outset Island - Savage Labyrinth - Floor 30")
     | (Can Access Item Location "Earth Temple - Big Key Chest" & Can Defeat Darknuts Easily)
     | (Can Access Item Location "Wind Temple - Big Key Chest" & Can Defeat Darknuts Easily)

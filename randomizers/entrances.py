@@ -228,10 +228,10 @@ ITEM_LOCATION_NAME_TO_EXIT_OVERRIDES = {
   
   "Pawprint Isle - Wizzrobe Cave"                    : ZoneExit.all["Pawprint Isle Wizzrobe Cave"],
   
-  "Ice Ring Isle - Inner Cave - Chest"               : ZoneExit.all["Ice Ring Isle Inner Cave"],
+  "Ice Ring Isle - Inner Cave"                       : ZoneExit.all["Ice Ring Isle Inner Cave"],
   "Cliff Plateau Isles - Highest Isle"               : ZoneExit.all["Cliff Plateau Isles Inner Cave"],
   
-  "Outset Island - Great Fairy"                      : ZoneExit.all["Outset Fairy Fountain"],
+  "Outset Island - Cyan Fountain"                    : ZoneExit.all["Outset Fairy Fountain"],
 }
 
 class EntranceRandomizer(BaseRandomizer):
@@ -918,7 +918,7 @@ class EntranceRandomizer(BaseRandomizer):
         self.item_location_to_containing_zone_exit[loc_name] = zone_exit
         self.zone_exit_to_logically_dependent_item_locations[zone_exit].append(loc_name)
       
-      if loc_name == "The Great Sea - Withered Trees":
+      if loc_name == "The Great Sea - Water Withered Trees":
         # This location isn't inside of a zone exit itself, but it does logically require the player
         # to be able to reach a different item location that is inside of a zone exit.
         for sub_loc_name in ["Cliff Plateau Isles - Highest Isle"]:
@@ -1085,7 +1085,7 @@ class EntranceRandomizer(BaseRandomizer):
       return {loc_zone_name} | self.get_all_zones_for_item_location("Forbidden Woods - Kalle Demos Heart Container")
     if location_name == "Mailbox - Letter from Aryll" or location_name == "Mailbox - Letter from Tingle":
       return {loc_zone_name} | self.get_all_zones_for_item_location("Forsaken Fortress - Helmaroc King Heart Container")
-    if location_name == "The Great Sea - Withered Trees":
+    if location_name == "The Great Sea - Water Withered Trees":
       return {loc_zone_name} | self.get_all_zones_for_item_location("Cliff Plateau Isles - Highest Isle")
     
     if not self.is_item_location_behind_randomizable_entrance(location_name):

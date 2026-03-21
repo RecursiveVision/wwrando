@@ -1030,7 +1030,7 @@ class Ui_MainWindow(object):
         self.clean_iso_path_browse_button.setText(QCoreApplication.translate("MainWindow", u"Browse", None))
         self.progression_locations_groupbox.setTitle(QCoreApplication.translate("MainWindow", u"Progression Locations: Where Should Progress Items Be Placed?", None))
         self.progression_submarines.setText(QCoreApplication.translate("MainWindow", u"Submarines", None))
-        self.progression_battlesquid.setText(QCoreApplication.translate("MainWindow", u"Battlesquid Minigame", None))
+        self.progression_battlesquid.setText(QCoreApplication.translate("MainWindow", u"Sploosh-Kaboom", None))
         self.progression_mail.setText(QCoreApplication.translate("MainWindow", u"Mail", None))
         self.progression_puzzle_secret_caves.setText(QCoreApplication.translate("MainWindow", u"Puzzle Secret Caves", None))
         self.progression_island_puzzles.setText(QCoreApplication.translate("MainWindow", u"Island Puzzles", None))

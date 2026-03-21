@@ -393,8 +393,8 @@ class HintsRandomizer(BaseRandomizer):
       hint += " awaits"
     
     msg = self.rando.bmg.messages_by_id[837]
-    msg.string = "\\{1A 07 FF 00 01 00 96}\\{1A 06 FF 00 00 01}The Savage Labyrinth\n\\{1A 07 FF 00 01 00 64}\n\n\n"
-    msg.string += "\\{1A 06 FF 00 00 00}Deep in the never-ending darkness, the way to %s." % hint
+    msg.string = "\\{1A 07 FF 00 01 00 96}\\{1A 06 FF 00 00 01}The Pit of 50 Trials\n\\{1A 07 FF 00 01 00 64}\n\n\n"
+    msg.string += "\\{1A 06 FF 00 00 00}Far into the forbidden depths, the way to %s." % hint
     msg.word_wrap_string(self.rando.bfn)
   
   def update_big_octo_great_fairy_item_name_hint(self, hint: Hint, importance: bool):

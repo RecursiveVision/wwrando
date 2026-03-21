@@ -706,6 +706,8 @@ def add_article_before_item_name(item_name: str):
     article = None
   elif (PROGRESS_ITEMS + NONPROGRESS_ITEMS).count(item_name) > 1:
     article = get_indefinite_article(item_name)
+  elif item_name in ["Red Chu Jelly", "Green Chu Jelly"]:
+    article = None
   elif item_name in CONSUMABLE_ITEMS:
     article = get_indefinite_article(item_name)
   elif item_name in DUPLICATABLE_CONSUMABLE_ITEMS:
@@ -875,11 +877,12 @@ def shorten_zephos_event(self: WWRandomizer):
   ]
 
 def update_korl_dialogue(self: WWRandomizer):
-  msg = self.bmg.messages_by_id[3443]
-  msg.string = "\\{1A 05 00 00 00}, the sea is all yours.\n"
-  msg.string += "Make sure you explore every corner\n"
-  msg.string += "in search of items to help you. Remember\n"
-  msg.string += "that your quest is to defeat Ganondorf."
+  for msg_id in (1502, 3443, 3444, 3445, 3446, 3447, 3448):
+    msg = self.bmg.messages_by_id[msg_id]
+    msg.string = "\\{1A 05 00 00 00}, we must conquer the Great Sea.\n"
+    msg.string += "Make sure you explore every corner in\n"
+    msg.string += "search of items to aid your dark master.\n"
+    msg.string += "Remember that you exist to serve him."
 
 def set_num_starting_triforce_shards(self: WWRandomizer):
   num_shards_address = self.main_custom_symbols["num_triforce_shards_to_start_with"]

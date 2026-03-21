@@ -522,6 +522,10 @@ class HintsRandomizer(BaseRandomizer):
     for msg_id in (1502, 3443, 3444, 3445, 3446, 3447, 3448):
       msg = self.rando.bmg.messages_by_id[msg_id]
       msg.construct_string_from_parts(self.rando.bfn, hint_lines)
+      msg.string += "\\{1A 05 00 00 00}, we must conquer the Great Sea.\n"
+      msg.string += "Make sure you explore every corner in\n"
+      msg.string += "search of items to aid your dark master.\n"
+      msg.string += "Remember that you exist to serve him."
   #endregion
   
   

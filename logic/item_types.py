@@ -61,7 +61,9 @@ PROGRESS_ITEMS = [
   ["Progressive Wallet"]*2 + \
   ["Progressive Picto Box"]*2 + \
   ["Progressive Magic Meter"]*2 + \
-  ["Empty Bottle"]*4
+  ["Empty Bottle"]*4 + \
+  ["Hyoi Pear"]*3 + \
+  ["All-Purpose Bait"]*1
 
 NONPROGRESS_ITEMS = [
   "Telescope",
@@ -108,10 +110,7 @@ CONSUMABLE_ITEMS = \
    9 * ["Golden Feather"] + \
    3 * ["Knight's Crest"] + \
    1 * ["Red Chu Jelly"] + \
-   1 * ["Green Chu Jelly"] + \
-  \
-   1 * ["All-Purpose Bait"] + \
-   4 * ["Hyoi Pear"]
+   1 * ["Green Chu Jelly"]
 # (Note: Blue Chu Jelly is not included as it is specially coded and would cause issues if randomly placed as a field item.)
 
 # Once all the items that have a fixed number per seed are used up, this list is used.

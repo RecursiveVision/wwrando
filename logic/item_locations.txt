@@ -81,7 +81,8 @@ Outset Island - Jabun's Cave:
     - main.dol@8035BD39
     - Pjavdou/Room0.arc/Chest000
 Outset Island - Dig up Black Soil:
-  Need: Bait Bag & Can Buy Bait & Power Bracelets
+  Need: Bait Bag & Unlocked Bait & Power Bracelets
+  # Self-imposed rule: This item can't be obtained until the All-Purpose Bait has been obtained through a random placement.
   Original item: Piece of Heart
   Types: Island Puzzle
   Paths:
@@ -559,10 +560,11 @@ Dragon Roost Island - Rito Aerie - Give Hoskit 20 Golden Feathers:
 Dragon Roost Island - Chest on Top of Boulder:
   Need:
     Hero's Bow
-    | (Bait Bag & Can Buy Hyoi Pears)
+    | (Bait Bag & Unlocked Any Hyoi Pear)
     | Boomerang
     | Bombs
     # Bombs work by getting in the ship and shooting the cannon up at the bomb flowers.
+    # Self-imposed rule: Cannot destroy this chest with a seagull until one of the three Hyoi Pears has been obtained.
   Original item: Silver Rupee
   Types: Island Puzzle
   Paths:
@@ -1311,7 +1313,9 @@ Ice Ring Isle - Inner Cave:
 
 
 Headstone Island - Top of the Island:
-  Need: Bait Bag & Can Buy Hyoi Pears
+  Need: Bait Bag & Unlocked All Hyoi Pears
+  # Self-imposed rule: Upon gaining one of the three Hyoi Pears through a random placement, one of the three locations requiring it can be accessed.
+  # For this reason, all Hyoi Pears are required, so that I can do so in any order.
   Original item: Piece of Heart
   Types: Island Puzzle
   Paths:
@@ -1972,9 +1976,11 @@ Spectacle Island - Barrel Shooting - Second Prize:
 #    - rels/d_a_npc_kg2.rel@210F
 
 Needle Rock Isle - Chest:
-  Need: Bait Bag & Can Buy Hyoi Pears
+  Need: Bait Bag & Unlocked All Hyoi Pears
     # Note: It does not seem possible to hit the switch at the top with a fire arrow's explosion.
     # If you hit one of the trees on top with the fire arrow, it will simply eat your arrow without allowing it to explode.
+    # Self-imposed rule: Upon gaining one of the three Hyoi Pears through a random placement, one of the three locations requiring it can be accessed.
+    # For this reason, all Hyoi Pears are required, so that I can do so in any order.
   Original item: Piece of Heart
   Types: Island Puzzle
   Paths:

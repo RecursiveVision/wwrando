@@ -12,6 +12,10 @@ Iron Boots:
   a very heavy item
 Bait Bag:
   a storage for food
+Hyoi Pear:
+  a fruit
+All-Purpose Bait:
+  a food for many animals
 Boomerang:
   an item that always comes back to you
 Hookshot:

@@ -72,6 +72,7 @@ PROGRESSIVE_ITEMS.sort()
 INVENTORY_ITEMS = REGULAR_ITEMS + PROGRESSIVE_ITEMS
 
 DEFAULT_STARTING_ITEMS = [
+  "Bait Bag",
   "Cabana Deed",
   "Fill-Up Coupon",
   "Ballad of Gales",

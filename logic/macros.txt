@@ -42,10 +42,12 @@ Can Hit Diamond Switches at Range:
   Boomerang | Hero's Bow | Hookshot
 Can Destroy Seeds Hanging by Vines:
   Boomerang | Hero's Bow | Bombs | Hookshot
-Can Buy Bait:
-  Nothing
-Can Buy Hyoi Pears:
-  Nothing
+Unlocked Bait:
+  All-Purpose Bait x1
+Unlocked Any Hyoi Pear:
+  Hyoi Pear x1
+Unlocked All Hyoi Pears:
+  Hyoi Pear x3
 
 Hero's Sword:
   Progressive Sword x1
@@ -429,7 +431,9 @@ Can Access Secret Cave Entrance on Overlook Island:
   Hookshot
 Can Access Secret Cave Entrance on Bird's Peak Rock:
   # Need to hit the switches with a seagull.
-  Bait Bag & Can Buy Hyoi Pears
+  # Self-imposed rule: Upon gaining one of the three Hyoi Pears through a random placement, one of the three locations requiring it can be accessed.
+  # For this reason, all Hyoi Pears are required, so that I can do so in any order.
+  Bait Bag & Unlocked All Hyoi Pears
 Can Access Secret Cave Entrance on Pawprint Isle:
   Nothing
 Can Access Secret Cave Entrance on Pawprint Isle Side Isle:

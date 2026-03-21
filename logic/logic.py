@@ -905,6 +905,10 @@ class Logic:
       result = self.check_progressive_item_req(req_name)
     elif " Small Key x" in req_name:
       result = self.check_small_key_req(req_name)
+    elif "Hyoi Pear x" in req_name:
+      result = self.check_hyoi_pear_req(req_name)
+    elif "All-Purpose Bait x" in req_name:
+      result = self.check_bait_req(req_name)
     elif req_name.startswith("Can Access Item Location \""):
       result = self.check_item_location_requirement(req_name)
     elif req_name.startswith("Option \""):
@@ -1007,6 +1011,16 @@ class Logic:
       small_key_name = match.group(1)
       num_keys_required = int(match.group(2))
       items_needed[small_key_name] = max(num_keys_required, items_needed.setdefault(small_key_name, 0))
+    elif "Hyoi Pear x" in req_name:
+      match = re.search(r"^(Hyoi Pear) x(\d+)$", req_name)
+      hyoi_pear_name = match.group(1)
+      num_pears_required = int(match.group(2))
+      items_needed[hyoi_pear_name] = max(num_pears_required, items_needed.setdefault(hyoi_pear_name, 0))
+    elif "All-Purpose Bait x" in req_name:
+      match = re.search(r"^(All-Purpose Bait) x(\d+)$", req_name)
+      bait_name = match.group(1)
+      num_bait_required = int(match.group(2))
+      items_needed[bait_name] = max(num_bait_required, items_needed.setdefault(bait_name, 0))
     elif req_name.startswith("Can Access Item Location \""):
       match = re.search(r"^Can Access Item Location \"([^\"]+)\"$", req_name)
       item_location_name = match.group(1)
@@ -1084,6 +1098,22 @@ class Logic:
     
     num_small_keys_owned = self.currently_owned_items.count(small_key_name)
     return num_small_keys_owned >= num_keys_required
+
+  def check_hyoi_pear_req(self, req_name: str):
+    match = re.search(r"^(Hyoi Pear) x(\d+)$", req_name)
+    hyoi_pear_name = match.group(1)
+    num_pears_required = int(match.group(2))
+    
+    num_pears_owned = self.currently_owned_items.count(hyoi_pear_name)
+    return num_pears_owned >= num_pears_required
+
+  def check_bait_req(self, req_name: str):
+    match = re.search(r"^(All-Purpose Bait) x(\d+)$", req_name)
+    bait_name = match.group(1)
+    num_bait_required = int(match.group(2))
+    
+    num_bait_owned = self.currently_owned_items.count(bait_name)
+    return num_bait_owned >= num_bait_required
   
   def check_item_location_requirement(self, req_name: str):
     match = re.search(r"^Can Access Item Location \"([^\"]+)\"$", req_name)

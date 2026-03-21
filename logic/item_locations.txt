@@ -54,7 +54,7 @@ Outset Island - Orca - Give 10 Knight's Crests:
 Outset Island - Orca - Hit 500 Times:
   Need: Can Sword Fight with Orca
   Original item: Piece of Heart
-  Types: Consumables only # This is just tedious to do
+  Types: Consumables only # This is carpal tunnel inducing
   Paths:
     - rels/d_a_npc_ji1.rel@42F7
 #Outset Island - Orca - Hit 999 Times:
@@ -128,6 +128,7 @@ Outset Island - Savage Labyrinth - Floor 50:
     & Can Defeat Dark ChuChus
     & Can Defeat Poes
     & Can Defeat Stalfos
+    & Can Defeat Groups of Darknuts
     & Skull Hammer
   # 2 of the 3 Wizzrobes on floor 48 never seem to come down to ground level, but it doesn't matter since you can throw the swords the Darknuts drop at them to kill them.
   # The following floors don't have requirements listed because you can trick enemies into hitting each other, pick up one of their dropped weapons, and kill the enemies with the weapon:
@@ -326,7 +327,7 @@ Windfall Island - Maggie - Deliver Moblin's Letter:
 Windfall Island - Windfall Café - Postman:
   Need: Rescued Aryll & Delivery Bag & Maggie's Letter
   Original item: Moblin's Letter
-  Types: Short Sidequest
+  Types: Consumables only # They shall stay in the Café forever
   Paths:
     - Opub/Stage.arc/Event00E:Get_Mo3_Ltr/Actor002/Action001
 Windfall Island - Kreeb - Light Up Lighthouse:
@@ -360,7 +361,7 @@ Windfall Island - Tott - Teach Rhythm:
 Windfall Island - Pirate Ship:
   Need: Nothing
   Original item: Bombs
-  Types: Minigame
+  Types: Consumables only # I like the Outset Island BGM
   Paths:
     - Asoko/Stage.arc/Layer2/Chest000
     - Asoko/Stage.arc/Layer3/Chest000
@@ -415,26 +416,26 @@ Windfall Island - Sam - Decorate the Town:
 Windfall Island - Kane - Place Shop Guru Statue on Gate:
   Need: Rescued Aryll & Delivery Bag
   Original item: Purple Rupee
-  Types: Consumables only
+  Types: No progression # Not too obscure to randomize, but Windfall already has a lot of free items; having Kane award four progression items as part of a quest that already gives two is a bit much.
   Paths:
     - rels/d_a_npc_people.rel@C21B
 Windfall Island - Kane - Place Postman Statue on Gate:
   Need: Rescued Aryll & Delivery Bag
   Original item: Purple Rupee
-  Types: Consumables only
+  Types: No progression # Not too obscure to randomize, but Windfall already has a lot of free items; having Kane award four progression items as part of a quest that already gives two is a bit much.
   Paths:
     - rels/d_a_npc_people.rel@C21F
 Windfall Island - Kane - Place Six Flags on Gate:
   # Pinwheel counts as a flag
   Need: Rescued Aryll & Delivery Bag
   Original item: Red Rupee
-  Types: Consumables only
+  Types: No progression # Not too obscure to randomize, but Windfall already has a lot of free items; having Kane award four progression items as part of a quest that already gives two is a bit much.
   Paths:
     - rels/d_a_npc_people.rel@C223
 Windfall Island - Kane - Place Six Idols on Gate:
   Need: Rescued Aryll & Delivery Bag
   Original item: Red Rupee
-  Types: Consumables only
+  Types: No progression # Not too obscure to randomize, but Windfall already has a lot of free items; having Kane award four progression items as part of a quest that already gives two is a bit much.
   Paths:
     - rels/d_a_npc_people.rel@C227
 Windfall Island - Mila - Follow the Thief:
@@ -511,7 +512,7 @@ Windfall Island - Windfall Café - Linda and Anton:
   # Then take a photo of Linda with the Deluxe Picto Box and show it to Anton. (You can do this before the parts with Lenzo and Linda if you want.)
   # Then wait an additional two days, and Linda and Anton will be in the café.
   Original item: Piece of Heart
-  Types: Long Sidequest
+  Types: Consumables only # They shall stay in the Café forever
   Paths:
     - rels/d_a_npc_people.rel@C557
 
@@ -1593,7 +1594,7 @@ Wind Temple - Big Key Chest:
     & Iron Boots
     & Can Fan With Deku Leaf
     & Can Play Wind God's Aria
-    & Can Defeat Darknuts
+    & Can Defeat Groups of Darknuts
   Original item: Big Key
   Types: Dungeon
   Paths:
@@ -1732,14 +1733,14 @@ Ganon's Tower - Maze Chest:
 
 # Note: In the vanilla game, the mailbox would not give you any mail until you owned Din's Pearl. But this requirement is removed in the randomizer.
 Mailbox - Letter from Hoskit's Girlfriend:
-  Need: Spoils Bag & Can Farm Golden Feathers & Song of Passing
+  Need: Spoils Bag & Can Farm Golden Feathers
   # Need to wait for time to pass.
   Original item: Piece of Heart (Alternate Message)
   Types: Mail, Spoils Trading
   Paths:
     - rels/d_a_obj_toripost.rel@25DC
 Mailbox - Letter from Baito's Mother:
-  Need: Delivery Bag & Note to Mom & Song of Passing
+  Need: Delivery Bag & Note to Mom
   # Need to wait for time to pass.
   Original item: Piece of Heart
   Types: Mail
@@ -1780,12 +1781,12 @@ Mailbox - Beedle's Silver Membership Reward:
       | Bombs
       | Hero's Bow
       | Empty Bottle
-    ) & Song of Passing
+    )
   # In order to get enough points to become a silver/gold member, you need to buy consumables.
   # Bait bag is needed to buy bait, bombs are needed to buy bombs, bow is needed to buy arrows, and empty bottle is needed to buy red potions.
   # Need to wait for time to pass.
   Original item: Complimentary ID
-  Types: No progression # Too tedious to buy 30 items just to progress
+  Types: Consumables only # This is carpal tunnel inducing
   Paths:
     - rels/d_a_obj_toripost.rel@25D0
 Mailbox - Beedle's Gold Membership Reward:
@@ -1795,12 +1796,12 @@ Mailbox - Beedle's Gold Membership Reward:
       | Bombs
       | Hero's Bow
       | Empty Bottle
-    ) & Song of Passing
+    )
   # In order to get enough points to become a silver/gold member, you need to buy consumables.
   # Bait bag is needed to buy bait, bombs are needed to buy bombs, bow is needed to buy arrows, and empty bottle is needed to buy red potions.
   # Need to wait for time to pass.
   Original item: Fill-Up Coupon
-  Types: No progression # Too tedious to buy 60 items just to progress
+  Types: Consumables only # This is carpal tunnel inducing
   Paths:
     - rels/d_a_obj_toripost.rel@25F4
 Mailbox - Letter from Orca:
@@ -1813,14 +1814,14 @@ Mailbox - Letter from Orca:
   Paths:
     - rels/d_a_obj_toripost.rel@2588
 Mailbox - Letter from Grandma:
-  Need: Empty Bottle & Can Get Fairies & Song of Passing
+  Need: Empty Bottle & Can Get Fairies
   # Need to wait for time to pass.
   Original item: Red Rupee
   Types: Mail
   Paths:
     - rels/d_a_obj_toripost.rel@2594
 Mailbox - Letter from Aryll:
-  Need: Can Access Item Location "Forsaken Fortress - Helmaroc King Heart Container" & Song of Passing
+  Need: Can Access Item Location "Forsaken Fortress - Helmaroc King Heart Container"
   # Note: In the vanilla game, this letter is sent after you watch a cutscene in Hyrule 2.
   # But since that's impossible when cutscenes are removed, the randomizer changes it to be sent when you kill Helmaroc King.
   # Need to wait for time to pass.
@@ -1829,7 +1830,7 @@ Mailbox - Letter from Aryll:
   Paths:
     - rels/d_a_obj_toripost.rel@25B8
 Mailbox - Letter from Tingle:
-  Need: Rescued Tingle & Any Wallet Upgrade & Can Access Item Location "Forsaken Fortress - Helmaroc King Heart Container" & Song of Passing
+  Need: Rescued Tingle & Any Wallet Upgrade & Can Access Item Location "Forsaken Fortress - Helmaroc King Heart Container"
   # You need a wallet upgrade because it costs 201 rupees to receive this letter.
   # Note: In the vanilla game, this letter is sent after you watch a cutscene in Hyrule 2.
   # But since that's impossible when cutscenes are removed, the randomizer changes it to be sent when you kill Helmaroc King.
@@ -2020,13 +2021,17 @@ Boating Course - Raft:
 Boating Course - Miniblin Cave:
   Need:
     Can Access Boating Course Secret Cave
-    & Can Hit Diamond Switches at Range
+    & (
+      Boomerang
+      | (Can Hit Diamond Switches at Range & Precise 3)
+    )
     & (
       Can Defeat Miniblins Easily
       | Precise 2
     )
     # Hitting the 3 diamond switches inside the cave needs a ranged weapon.
-    # Precise: Hitting the switches with Hookshot without being able to kill the Miniblins is difficult and involves a lot of running around.
+    # Precise: Using anything other than the Boomerang to hit the switches on emulator is very difficult.
+    # Precise: Hitting the switches without being able to kill the Miniblins on emulator is difficult and involves a lot of running around.
   Original item: Submarine Chart
   Types: Puzzle Secret Cave, Combat Secret Cave
   Paths:
@@ -2035,11 +2040,12 @@ Boating Course - Miniblin Cave:
 Stone Watcher Island - Triforce Trial Cave:
   Need:
     Can Access Stone Watcher Island Secret Cave
-    & Can Defeat Armos
-    & Can Defeat Wizzrobes
-    & Can Defeat Darknuts
-    & Can Play Wind's Requiem
+    & (
+      (Obscure 2 & Precise 2)
+      | (Can Defeat Armos & Can Defeat Wizzrobes & Can Defeat Groups of Darknuts & Can Play Wind's Requiem)
+    )
     # There are Moblins and Blue Bokoblins but they can be tricked into hitting each other to steal their weapons.
+    # Obscure&Precise: The Moblins' spears can be carried through the doors to kill everything else. This is difficult when dealing with the Armos.
   Original item: Triforce Chart 7
   Types: Combat Secret Cave
   Paths:
@@ -2084,7 +2090,7 @@ Overlook Island - Elite Triforce Trial Cave:
     & Can Defeat Fire Keese
     & Can Defeat Morths
     & Can Defeat Kargarocs
-    & Can Defeat Darknuts
+    & Can Defeat Groups of Darknuts
     & Can Play Wind's Requiem
     # The Armos Knights require nothing since there are bomb flowers in their room.
     # The chuchus, keese, morths, and kargarocs don't necessarily have to be fought, but may be summoned by the wizzrobes.
@@ -3150,7 +3156,8 @@ Horseshoe Island - Sunken Treasure:
     - sea/Room43.arc/ScalableObject009
     - sea/Room43.arc/ScalableObject00A
 Outset Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 44
+  Need: Grappling Hook & Bombs & Chart for Island 44
+  # Bombs are needed because it's possible for this sunken treasure to spawn in the whirlpool on a Master Quest playthrough. Bombs are needed to clear it so that the treasure can be salvaged.
   Original item: Triforce Shard 4
   Types: Sunken Treasure
   Paths:

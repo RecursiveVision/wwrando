@@ -653,11 +653,11 @@ Can Farm Knight's Crests:
   & (
     (Can Access Item Location "Ice Ring Isle - Inner Cave")
     | (Can Access Item Location "Outset Island - Savage Labyrinth - Floor 30")
-    | (Can Access Item Location "Earth Temple - Big Key Chest" & Can Defeat Darknuts Easily)
-    | (Can Access Item Location "Wind Temple - Big Key Chest" & Can Defeat Darknuts Easily)
-    | (Can Access Item Location "Shark Island - Cave")
-    | (Can Access Item Location "Stone Watcher Island - Cave" & Can Defeat Darknuts Easily)
-    | (Can Access Item Location "Overlook Island - Cave" & Can Defeat Darknuts Easily)
+    | (Can Access Item Location "Earth Temple - Big Key Chest" & Can Defeat Groups of Darknuts)
+    | (Can Access Item Location "Wind Temple - Big Key Chest" & Can Defeat Groups of Darknuts)
+    | (Can Access Item Location "Shark Island - Shark Island Ambush")
+    | (Can Access Item Location "Stone Watcher Island - Triforce Trial Cave" & Can Defeat Groups of Darknuts)
+    | (Can Access Item Location "Overlook Island - Elite Triforce Trial Cave" & Can Defeat Groups of Darknuts)
     | (Can Access Hyrule)
   )
   # There are respawning Darknuts in:
@@ -752,12 +752,13 @@ Can Defeat Darknuts:
   # Removing their armor with Skull Hammer is tricky.
   # The most consistent way with Skull Hammer is to run up to a Darknut, do a spin attack to hit its armor, roll away to dodge its attack, roll back in and do another spin attack, and repeat until the armor has been broken.
   # Another way is to circle around the Darknut counterclockwise without locking onto it and wait for it to attack. As soon as it attacks, use the hammer to attack its back and its armor will fall off in one hit.
-Can Defeat Darknuts Easily:
+Can Defeat Groups of Darknuts:
   Hero's Sword
   | Light Arrows
-Can Defeat Mighty Darknuts:
-  Can Defeat Darknuts Easily
   | (Skull Hammer & Precise 3)
+  # Precise: Destroying the armor the slow way by hitting it repeatedly with spinning hammer attacks is very difficult against groups of Darknuts in an enclosed space.
+Can Defeat Mighty Darknuts:
+  Can Defeat Groups of Darknuts
   # The capes Mighty Darknuts have mean the one hit armor removal with the hammer doesn't work.
   # Precise: Destroying the armor the slow way by hitting it repeatedly with spinning hammer attacks is *extremely* difficult against Mighty Darknuts, but it is possible, even with only 3 hearts.
 Can Defeat Miniblins:
@@ -1069,9 +1070,10 @@ Can Cut Grass:
   | Boomerang
   | Bombs
 Can Sword Fight with Orca:
-  Hero's Sword
-  | In Swordless Mode
+  (Hero's Sword | In Swordless Mode)
+  & (Hero's Shield | Precise 3)
   # Swordless gives you a sword temporarily while in Orca's house, so you don't need to have found a sword item.
+  # Precise: Hitting Orca 500 times without a shield to block his strikes is just tedious.
 
 # The below macros are automatically updated by the chart randomizer.
 Chart for Island 1: Treasure Chart 25
